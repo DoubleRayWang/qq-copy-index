@@ -1,0 +1,113 @@
+#main_bg{
+	background: url(../images/register/body.png) repeat-x;
+}
+.topbar{
+	background: url(../images/register/bg_chs.png) no-repeat -170px 0;
+	width: 956px;
+	height: 94px;
+}
+.topbar p{
+	font-size: 80%;
+	padding-top: 33px;
+	margin-right: 15px;
+}
+.topbar span{
+	display: block;
+	padding-top: 15px;
+}
+.contact{
+	width: 956px;
+	border: 1px solid #A3AFB2;
+	border-top: none;
+}
+.contact_left{
+	background: url(../images/register/left.png) no-repeat;
+	width: 210px;
+	height: 680px;
+	margin-left: 2px;
+}
+.contact_left p{
+	height: 75px;
+	color: rgb(97,108,114);
+	font-size: 22px;
+	margin: 30px 0 25px;
+	padding: 15px 0 0 10px;
+}
+.contact_left p:hover{
+	background: url(../images/register/left_2.png) no-repeat 2px bottom;
+	color: white;
+	cursor: pointer;
+}
+.contact_left p span{
+	display: block;
+	font-size: 14px;
+}
+.contact_right{
+	width: 744px;
+	background-color: rgb(248,253,255);
+}
+.register_bar{
+	width: 610px;
+}
+.surfing{
+	margin: 30px 0;
+}
+.register_bar h3{
+	border-left: 4px solid rgb(89,175,228);
+	padding-left: 10px;
+}
+.contact_right hr{
+	margin: 25px 0;
+	border: 1px solid #B2B2B3;
+}
+#memu{
+	width: 450px;
+	font-size: 90%;
+}
+.accounts,.cipher,.affirm,.birthday,.number,.enroll{
+	width: 280px;
+	height: 20px;
+	margin: 8px auto;
+}
+#memu select{
+	width: 125px;
+}
+#memu p,.dredge,.agree{
+	margin-left: 6em;
+	font: 60% "微软雅黑";
+}
+#memu p span{
+	padding-left: 30px;
+	color: deepskyblue;
+}
+.accounts,.cipher,.birthday,.male{
+	margin-left:3em ;
+}
+.affirm,.number{
+	margin-left: 0.85em;
+}
+.area{
+	margin-left: 2em;
+}
+.enroll{
+	width: 280px;
+	height: 40px;
+	font-size: 140%;
+	margin: 10px 0;
+	margin-left: 3.4em;
+	background-color: rgb(105,185,70);
+	border-radius: 4px;
+	font-weight: bold;
+}
+.accounts,.cipher,.birthday,.male,.area,.affirm,.number{
+	background-color: #e8f2f2;
+	border-radius: 5px;
+}
+#Copyright{
+	width: 956px;
+	height: 50px;
+}
+#Copyright p{
+	padding: 30px 0;
+	font-size: 90%;
+}
