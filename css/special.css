@@ -1,0 +1,46 @@
+.header_bg {
+	background: url(../images/alb_bn.jpg) no-repeat top;
+}
+.special{
+	margin: 40px auto;
+}
+.special img{
+	border: none;
+}
+.special h3{
+	margin-bottom: 30px;
+	padding-left: 15px;
+	font-weight: normal;
+	border-left: 4px solid #000;
+}
+.special li:hover img{
+	opacity: 0.6;
+	transform: scale(0.99);
+}
+.special p{
+	display: none;
+	left: 0;
+	top: 0;
+}
+.special a:hover{
+	color: #2E3E4F;
+}
+.special li:hover p{
+	display: block;
+	top: 0;
+	left: 0;
+	width: 327px;
+	height: 280px;
+	padding: 80px 0 0;
+	background: url(../images/special_bg.png) no-repeat;
+	cursor: pointer;
+	font-size: 26px;
+}
+.banner_text{
+	font-size: 65%;
+	padding: 25px 0 10px;
+}
+.see{
+	font-size: 20px;
+	font-weight: bold;
+}

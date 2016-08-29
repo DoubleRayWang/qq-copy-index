@@ -1,0 +1,70 @@
+.header_bg {
+	background: url(../images/download_bg.jpg) no-repeat top;
+}
+.header p{
+	width: 230px;
+	height: 45px;
+	top: 425px;
+	left: 99px;
+	background: #16bbfa;
+	font: 28px "微软雅黑";
+	border-radius: 20px;
+}
+.header p a:hover{
+	color: whitesmoke;
+}
+.introduce{
+	display: table;
+	margin: 50px auto;
+}
+.introduce h2 span{
+	color: #2E3E4F;
+	font-size: 14px;
+	font-weight: normal;
+}
+.pctab ul li,.mbtab ul li,.padtab ul li{
+	width: 100px;
+	height: 20px;
+	margin-top: 25px;
+	padding: 5px;
+	background: #12b7f5;
+	border-radius: 25px;
+}
+.pctab ul img,.mbtab ul img,.padtab ul img{
+	margin-top: -5px;
+}
+.pctab img:hover,.mbtab img:hover,.padtab img:hover,.another img:hover{
+	transform: scale(0.99);
+	opacity: 0.7;
+	cursor: pointer;
+}
+.another{
+	margin: 50px auto;
+	border-top: 1px solid #515862;
+}
+.another th{
+	padding-top: 30px;
+	font-size: 20px;
+	font-weight: lighter;
+}
+.another td{
+	padding: 20px;
+}
+.another p{
+	display: inline;
+	font-size: 12px;
+}
+.another p span{
+	display: block;
+	font-size: 14px;
+}
+.another h5{
+	width: 70px;
+	height: 25px;
+	padding-top: 2px;
+	background: #12b7f5;
+	border-radius: 20px;
+	font-weight: normal;
+	font-size: 16px;
+	cursor: pointer;
+}
